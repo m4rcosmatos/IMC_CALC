@@ -13,7 +13,7 @@ const ImcCalc = ({ calcImc }) => {
   };
 
   const validDigits = (text) => {
-    return text.replace(/[^0-9,]/g, "");
+    return text.replace(/[^0-9,.]/g, "");
   };
 
   const handleHeightChange = (e) => {
